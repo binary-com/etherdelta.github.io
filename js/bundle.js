@@ -1219,7 +1219,7 @@ module.exports = {
   tokens: [
     { addr: '0x0000000000000000000000000000000000000000', name: 'ETH', decimals: 18 },
     { addr: '0xd8912c10681d8b21fd3742244f44658dba12264e', name: 'PLU', decimals: 18 },
-    { addr: '0xaf30d2a7e90d7dc361c8c4585e9bb7d2f6f15bc7', name: '1ST', decimals: 18 },
+    /*{ addr: '0xaf30d2a7e90d7dc361c8c4585e9bb7d2f6f15bc7', name: '1ST', decimals: 18 },
     { addr: '0x936f78b9852d12f5cb93177c1f84fb8513d06263', name: 'GNTW', decimals: 18 },
     { addr: '0x01afc37f4f85babc47c0e2d0eababc7fb49793c8', name: 'GNTM', decimals: 18 },
     { addr: '0xa74476443119a942de498590fe1f2454d7d4ac0d', name: 'GNT', decimals: 18 },
@@ -1271,12 +1271,12 @@ module.exports = {
     { addr: '0x12fef5e57bf45873cd9b62e9dbd7bfb99e32d73e', name: 'CFI', decimals: 18 },
     { addr: '0x8f3470a7388c05ee4e7af3d01d8c722b0ff52374', name: 'VERI', decimals: 18 },
     // { addr: '0x40395044ac3c0c57051906da938b54bd6557f212', name: 'MGO', decimals: 8 },
-    { addr: '0x8ae4bf2c33a8e667de34b54938b0ccd03eb8cc06', name: 'PTOY', decimals: 8 },
+    { addr: '0x8ae4bf2c33a8e667de34b54938b0ccd03eb8cc06', name: 'PTOY', decimals: 8 },*/
   ],
   defaultPair: { token: 'PLU', base: 'ETH' },
   pairs: [
     { token: 'PLU', base: 'ETH' },
-    { token: '1ST', base: 'ETH' },
+    /*{ token: '1ST', base: 'ETH' },
     { token: 'EDG', base: 'ETH' },
     { token: 'ARC', base: 'ETH' },
     { token: 'GNTW', base: 'ETH' },
@@ -1314,7 +1314,7 @@ module.exports = {
     // { token: 'MGO', base: 'ETH' },
     { token: 'PTOY', base: 'ETH' },
     { token: 'ETH', base: 'USD.DC' },
-    { token: 'ETH', base: 'BTC.DC' },
+    { token: 'ETH', base: 'BTC.DC' },*/
   ],
 };
 
