@@ -8,7 +8,6 @@ html,body {
   height: 100%;
   overflow-x: auto;
   overflow-y: hidden;
-  font-family: 'Open Sans', sans-serif;
   background: #fff;
 }
 
@@ -291,27 +290,39 @@ ul li {
   font-weight: 900;
 }
 /* Dropdown related changes */
+.dropdown > a {
+  font-weight: 100;  
+}
 .dropdown:focus {
   color: #fff;
   background: #2a3052;
+  font-weight: 100;
 }
 #tokensDropdown > a, #basesDropdown > a {
   color: #fff;
   font-size: 16px;
+  font-weight: 100;
 }
 #tokensDropdown.open > a:hover, #basesDropdown.open > a:hover {
   background: #15212d;
+  font-weight: 100;
 }
 .nav>li>a:hover {
   background: #2a3052;
   opacity: 0.75;  
+  font-weight: 100;
 }
 .nav>li>a:focus {
   background: #2a3052;
   color: #fff;  
+  font-weight: 100;
 }
 .nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
   background: #15212d;
   color: #fff;  
+  font-weight: 100;
 }
 /* Dropdown changes Ends here */
+.form-horizontal .form-group:last-of-type {
+  height: 55px;
+}
