@@ -1322,7 +1322,7 @@ module.exports = {
 /* eslint-env browser */
 
 module.exports = {
-  homeURL: 'https://4p00rv.github.io/etherdelta.github.io',
+  homeURL: 'https://binary-com.github.io/etherdelta.github.io',
   contractEtherDelta: 'smart_contract/etherdelta.sol',
   contractToken: 'smart_contract/token.sol',
   contractReserveToken: 'smart_contract/reservetoken.sol',
