@@ -1335,7 +1335,7 @@ module.exports = {
     { addr: '0x0000000000000000000000000000000000000000', info: 'Zero contract' },
   ],
   ethTestnet: 'ropsten',
-  ethProvider: 'http://localhost:8545',
+  ethProvider: 'https://ropsten.etherscan.io',
   ethGasPrice: 20000000000,
   ethAddr: '0x0000000000000000000000000000000000000000',
   ethAddrPrivateKey: '',
