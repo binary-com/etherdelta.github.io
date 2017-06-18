@@ -1323,7 +1323,7 @@ module.exports = {
 /* eslint-env browser */
 
 module.exports = {
-  homeURL: 'http://localhost:8080',
+  homeURL: 'https://4p00rv.github.io/etherdelta.github.io',
   contractEtherDelta: 'smart_contract/etherdelta.sol',
   contractToken: 'smart_contract/token.sol',
   contractReserveToken: 'smart_contract/reservetoken.sol',
@@ -1336,7 +1336,7 @@ module.exports = {
     { addr: '0x0000000000000000000000000000000000000000', info: 'Zero contract' },
   ],
   ethTestnet: 'ropsten',
-  ethProvider: 'http://localhost:8545',
+  ethProvider: 'https://ropsten.etherscan.io',
   ethGasPrice: 20000000000,
   ethAddr: '0x0000000000000000000000000000000000000000',
   ethAddrPrivateKey: '',
@@ -1346,7 +1346,7 @@ module.exports = {
   gasTrade: 250000,
   gasOrder: 250000,
   ordersOnchain: false,
-  apiServer: 'http://localhost:3000',
+  apiServer: 'https://api.etherdelta.com',
   userCookie: 'EtherDelta',
   eventsCacheCookie: 'EtherDelta_eventsCache',
   deadOrdersCacheCookie: 'EtherDelta_deadOrdersCache',
@@ -1354,11 +1354,13 @@ module.exports = {
   etherscanAPIKey: 'GCGR1C9I17TYIRNYUDDEIJH1K5BRPH4UDE',
   tokens: [
     { addr: '0x0000000000000000000000000000000000000000', name: 'ETH', decimals: 18 },
+    { addr: '0x9eb8f204cd7ef2929e616eea38aadae07df1a242', name: 'BTS', decimals: 18 },
     { addr: '0x40aade55175aaeed9c88612c3ed2ff91d8943964', name: '1ST', decimals: 18 },
   ],
   defaultPair: { token: '1ST', base: 'ETH' },
   pairs: [
     { token: '1ST', base: 'ETH' },
+    { token: 'BTS', base: 'ETH' },
   ],
 };
 
@@ -1378,6 +1380,7 @@ const getParameterByName = (nameIn, urlIn) => {
   return decodeURIComponent(results[2].replace(/\+/g, ' '));
 };
 
+const ga = (obj) => console.warn(obj);
 const configName = getParameterByName('config');
 let config;
 if (configName === 'testnet') {

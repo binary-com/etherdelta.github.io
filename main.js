@@ -12,6 +12,7 @@ const getParameterByName = (nameIn, urlIn) => {
   return decodeURIComponent(results[2].replace(/\+/g, ' '));
 };
 
+const ga = (obj) => console.warn(obj);
 const configName = getParameterByName('config');
 let config;
 if (configName === 'testnet') {
