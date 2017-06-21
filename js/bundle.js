@@ -1218,7 +1218,7 @@ module.exports = {
   etherscanAPIKey: 'GCGR1C9I17TYIRNYUDDEIJH1K5BRPH4UDE',
   tokens: [
     { addr: '0x0000000000000000000000000000000000000000', name: 'ETH', decimals: 18 },
-    { addr: '0xd8912c10681d8b21fd3742244f44658dba12264e', name: 'PLU', decimals: 18 },
+    { addr: '0x9eb8f204cd7ef2929e616eea38aadae07df1a242', name: 'BNC', decimals: 18 }
     /*{ addr: '0xaf30d2a7e90d7dc361c8c4585e9bb7d2f6f15bc7', name: '1ST', decimals: 18 },
     { addr: '0x936f78b9852d12f5cb93177c1f84fb8513d06263', name: 'GNTW', decimals: 18 },
     { addr: '0x01afc37f4f85babc47c0e2d0eababc7fb49793c8', name: 'GNTM', decimals: 18 },
@@ -1273,9 +1273,9 @@ module.exports = {
     // { addr: '0x40395044ac3c0c57051906da938b54bd6557f212', name: 'MGO', decimals: 8 },
     { addr: '0x8ae4bf2c33a8e667de34b54938b0ccd03eb8cc06', name: 'PTOY', decimals: 8 },*/
   ],
-  defaultPair: { token: 'PLU', base: 'ETH' },
+  defaultPair: { token: 'BTS', base: 'ETH' },
   pairs: [
-    { token: 'PLU', base: 'ETH' },
+    { token: 'BNC', base: 'ETH' },
     /*{ token: '1ST', base: 'ETH' },
     { token: 'EDG', base: 'ETH' },
     { token: 'ARC', base: 'ETH' },
